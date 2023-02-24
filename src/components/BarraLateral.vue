@@ -65,12 +65,14 @@ export default defineComponent({
             height: auto;
         }
     }
-
     .panel li {
         margin: 8px 0;
+        display: flex;
+        flex-direction: column;
     }
     .link {
         color: #fff;
+        margin-bottom: 1rem;
     }
     .link:hover {
         color:#FAF0CA;
